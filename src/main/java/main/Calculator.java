@@ -10,7 +10,7 @@ public class Calculator {
         num1 = inp.nextInt();
         num2 = inp.nextInt();
         int ans;
-        System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
+        System.out.println("MENU \n1.Addition \n2.substraction \n3.Multiplication \n4.division:");
         int choose;
         choose = inp.nextInt();
         switch (choose){
@@ -38,7 +38,8 @@ public class Calculator {
     public static int add(int x, int y)
     {
     	int result=0;
-//        write your code here 
+//        write your code here
+    	result=x+y;
     	
         return result;
     }
@@ -46,18 +47,21 @@ public class Calculator {
     {
     	int result=0;
 //        write your code here
+    	result=x-y;
         return result;
     }
     public static int mult(int x, int y)
     {
     	int result=0;
-//      write your code here        
+//      write your code here     
+    	result=x*y;
     	return result;
     }
     public static int div(int x, int y)
     {
     	int result=0;
 //      write your code here
+    	result=x/y;
     	return result;
     }
 
